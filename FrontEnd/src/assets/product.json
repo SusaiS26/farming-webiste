@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Tomoto",
+      "amt": "0",
+      "pic": "https://tiimg.tistatic.com/fp/1/004/053/organic-tomoto-715.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Maravalli",
+      "amt": 250.00,
+      "pic": "https://img2.exportersindia.com/product_images/bc-full/2019/7/6510124/1564488015_p_5023209_970301.jpeg"  },
+    {
+      "id": 3,
+      "name": "Makkasolam",
+      "amt": 30,
+      "pic": "https://static.langimg.com/photo/imgsize-264634,msid-80096090/tamil-samayam.jpg"  },
+    {
+      "id": 4,
+      "name": "White Goat",
+      "amt": 900,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXI054CvVpDm63l3vPfQD_z7JBgauJH4B6GQ&s"
+    },
+    {
+      "id": 5,
+      "name": "Cow",
+      "amt": 20000,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxOA-hVFbpBVOcih-8qYH_35ynFH54fGqRYQ&s"  },
+      {
+        "id": 6,
+        "name": "Pig",
+        "amt": 200.00,
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-EhxQwNkyCapJwEn5oJq3hHw-pyobb28Dg&s"  }
+  ]

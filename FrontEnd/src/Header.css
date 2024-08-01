@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.transparent-hide {
+    /* position: relative; */
+    z-index: 1000;
+    margin-bottom: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #FFEE58;
+    padding: 0 20px;
+   position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-right: 110px;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+nav ul li:before {
+    position: absolute;
+    content: "";
+    background: black;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+label #btn, label #cancel {
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+}
+
+.transparent-hide label {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 860px) {
+    nav {
+        position: fixed;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        flex-direction: column;
+        height: 100vh;
+        background: #FFEE58;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        gap: 0px;
+        width: 74%;
+        margin-top: 0px;
+    }
+
+    nav ul li {
+        margin: 50px 0;
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+.link-style {
+    color: black;
+    text-decoration: none;
+}
+
+.button-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.button-style {
+    margin-left: 15px;
+}
+
+.cart-count {
+    color: brown;
+    font-size: 16px;
+}
