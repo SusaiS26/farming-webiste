@@ -28,25 +28,50 @@ function Contact() {
 
 
 
+    // const onClickSave = async () => {
+    //     const payload = {
+    //         firstName,
+    //         lastName,
+    //         phonenumber,
+    //         email_id
+    //     }
+    //     try {
+    //         const response = await axios.post('http://localhost:4000/api/post/contact', payload);
+    //         console.log(response);
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    //     firstName="",
+    //     lastName="",
+    //     phonenumber="",
+    //     email_id=""
+    //     alert("successfully")
+    // };
+
     const onClickSave = async () => {
         const payload = {
             firstName,
             lastName,
             phonenumber,
             email_id
-        }
+        };
         try {
             const response = await axios.post('http://localhost:4000/api/post/contact', payload);
             console.log(response);
-            console.log(response.data, "LOLOLO");
+            setFirstName('');
+            setlastName('');
+            setphonenumber('');
+            setemail_id('');
+            alert("Successfully saved!");
         } catch (error) {
             console.log(error);
         }
     };
 
+
     return (
         <div className="contact-container">
-             <Header/>
+            <Header />
             <div className="about-section">
                 <h1 className="homepageabout">Contact Us Page</h1>
                 <p>We are Free to Help you contact us</p>
@@ -141,10 +166,10 @@ function Contact() {
             </section>
             <div className="footerpage">
 
-            <Footerpage />
-        </div>
-        
-    </div >
+                <Footerpage />
+            </div>
+
+        </div >
     )
 }
 export default Contact;
