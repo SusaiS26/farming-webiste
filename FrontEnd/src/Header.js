@@ -9,7 +9,7 @@ import { cartContext } from './App';
 
 const Header = () => {
   const navigate = useNavigate();
-  const { cart } = useContext(cartContext);  // Ensure proper destructuring and usage
+  const { cart } = useContext(cartContext);
 
   const homeOnclickValue = (e) => {
     e.preventDefault();
@@ -34,7 +34,12 @@ const Header = () => {
           <li><Link to='/Contact' className="link-style">Contact Us</Link></li>
           <div className="button-sec">
             <li className="button-style"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
-            <li className="button-style ms-4 link-style"><Link to="/SViewcart" className="link-style"><span className='cart-count'>{cart.length}</span><FontAwesomeIcon icon={faCartShopping} /></Link></li>
+            <li className="button-style ms-4 link-style">
+              <Link to="/SViewcart" className="link-style">
+                <span className='cart-count'>{cart.length}</span>
+                <FontAwesomeIcon icon={faCartShopping} />
+              </Link>
+            </li>
           </div>
         </ul>
       </nav>

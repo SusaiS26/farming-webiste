@@ -5,8 +5,8 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .transparent-hide {
-    /* position: relative; */
     z-index: 1000;
     margin-bottom: 60px;
 }
@@ -18,7 +18,7 @@ nav {
     height: 60px;
     background-color: #FFEE58;
     padding: 0 20px;
-   position:fixed;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -35,7 +35,6 @@ nav ul {
     margin-right: 25px;
     margin-top: 15px;
     font-weight: 600;
-
 }
 
 nav ul li {
@@ -69,7 +68,7 @@ label #btn, label #cancel {
 }
 
 .transparent-hide label {
-    display: none;
+    /* display: none; */
 }
 
 #check {
@@ -140,4 +139,5 @@ label #btn, label #cancel {
 .cart-count {
     color: brown;
     font-size: 16px;
+    background-color: red;
 }
