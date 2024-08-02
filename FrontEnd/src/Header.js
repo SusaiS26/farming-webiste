@@ -22,7 +22,7 @@ const Header = () => {
       <nav>
         <img src={piglog1} alt="Logo" />
         <input type='checkbox' id='check' />
-        <label htmlFor="check">
+        <label htmlFor="check" className="menu-icon">
           <i><FontAwesomeIcon icon={faBars} id='btn' /></i>
           <i><FontAwesomeIcon icon={faXmark} id='cancel' /></i>
         </label>
