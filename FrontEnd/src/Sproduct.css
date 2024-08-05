@@ -9,12 +9,15 @@
     border-radius: 5px;
 }
 .product-image{
-    width: 100px;
-    height: auto;
+    width: 250px;
+    height: 200px
 }
 .product{
     margin-left: 100px;
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.txt_product{
+    margin-top: 40px;
 }

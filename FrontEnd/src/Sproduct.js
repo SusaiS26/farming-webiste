@@ -18,7 +18,7 @@ export const Sproduct = ({ product }) => {
         <img src={product.pic} alt={product.name} className='product-image' />
       </div>
       <div className='details'>
-        <h4> {product.name}</h4>
+        <h4 className='txt_product'> {product.name}</h4>
         <p>Price Rs: {product.amt}</p>
         {cart.includes(product) ? (
           <button className='btn-Remove' onClick={removeCart}>Remove from Cart</button>

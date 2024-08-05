@@ -1,6 +1,6 @@
 import React from "react";
 import './Aboutpage.css';
-
+import naina from './pigphotos/naina.jpeg';
 import gnanam from './pigphotos/gnanam.jpeg';
 import susai from './pigphotos/Susai.jpeg'
 import Footerpage from "./Footerpage";
@@ -11,9 +11,9 @@ import Header from "./Header";
 
 function Aboutpage() {
     return (
-      
+
         <div>
-              <Header/>
+            <Header />
             <div class="about-section">
                 <h1 className="homepageabout">About Us Page</h1>
                 <p>Welcome to Arockiya Farm, where our mission is to foster
@@ -26,23 +26,40 @@ function Aboutpage() {
 
             <h2 style={{ textAlign: 'center' }}>Our Team</h2>
             <div class="row bottom-scroll">
-                <div class="column">
-                    <div class="card">
-                        <img src={susai} alt="susai" style={{ width: '100%' }} />
-                        <div className="container">
-                            <h2>Susai Nathan.S</h2>
-                            <p className="title">CEO & Founder</p>
-                            <p>Arockiya Farm was established to enhance our family's income and grow our business.</p>
-                            <p>For any inquiries, please contact Susai Nathan & co.</p>
-                            <p>Email: susaimm26@gmail.com</p>
-                            <p class="button">Contact 784544569</p>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="column">
                     <div class="card">
-                        <img src={gnanam} alt="Mike" />
+                        <img src={naina} />
+                        <div class="container">
+                            <h2>Sagaya Nathan.A</h2>
+                            <p className="title">President</p>
+                            <p>President and owner of Arockiya Farm,is dedicated to
+                                driving the vision of excellence in sustainable agriculture.
+                                His leadership is characterized by a commitment to innovation, operational efficiency.
+                            </p>
+                            <p>Email:parthi@gmail.com</p>
+                            <p class="button">Contact 9500735511</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src={susai} style={{ width: '100%' }} />
+                        <div className="container">
+                            <h2>Susai Nathan.S</h2>
+                            <p className="title">CEO & Founder</p>
+                            <p>As the CEO and Founder of Arockiya Farm,Susai
+                                is dedicated to driving the growth and success of our
+                                family business. With a passion for sustainable agriculture.
+                                he is committed to enhancing our family's.</p>
+                                <p>Email: susaimm26@gmail.com</p>
+                                <p class="button">Contact 784544569</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src={gnanam} />
                         <div class="container">
                             <h2>GnanaSeela Nathan.S</h2>
                             <p className="title">Managing Director</p>
@@ -51,22 +68,6 @@ function Aboutpage() {
                                 My goal is to drive sustainable growth and innovation in our business practices.</p>
                             <p>Email: GnanaSeelan@gmail.com</p>
                             <p class="button">Contact 9843014828</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <div class="card">
-                        <img src={''} alt="John" />
-                        <div class="container">
-                            <h2>Sagaya Nathan.A</h2>
-                            <p className="title">President</p>
-                            <p>As the President of Arockiya Farm, I am committed to leading our team towards
-                                achieving excellence in sustainable agriculture. My focus is on fostering innovation,
-                                ensuring operational efficiency.
-                            </p>
-                            <p>Email: parthi@gmail.com</p>
-                            <p class="button">Contact 9500735511</p>
                         </div>
                     </div>
                 </div>

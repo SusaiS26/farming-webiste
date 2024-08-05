@@ -60,9 +60,9 @@
     z-index: 1000;
 }
 
-.pigyorkshire {
+/* .pigyorkshire {
     margin-top: 20px;
-}
+} */
 
 .carousel-caption {
 
@@ -82,6 +82,7 @@
     font-style: initial;
     margin-bottom: 40px;
     font-weight: 600;
+    background-color: black;
 }
 
 .textlargewhtwo {
@@ -128,7 +129,9 @@
 }
 
 .carousel-caption {
-    bottom: 20px;
+    background-color: black;
+    border-radius: 40px;
+    height: 160px;
 }
 
 .carousel-item img {
@@ -159,6 +162,9 @@
     .pigyorkshire {
         color: #ffffff;
         font-weight: 700;
+        background-color: black;
+        border-radius: 40px;
+        /* height: 160px; */
     }
 
     .card-align-margin {

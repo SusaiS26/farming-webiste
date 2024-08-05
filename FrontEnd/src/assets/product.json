@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "Tomoto",
-      "amt": "0",
+      "amt": 50,
       "pic": "https://tiimg.tistatic.com/fp/1/004/053/organic-tomoto-715.jpg"
     },
     {
       "id": 2,
       "name": "Maravalli",
-      "amt": 250.00,
+      "amt": 100.00,
       "pic": "https://img2.exportersindia.com/product_images/bc-full/2019/7/6510124/1564488015_p_5023209_970301.jpeg"  },
     {
       "id": 3,

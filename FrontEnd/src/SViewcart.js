@@ -20,7 +20,14 @@ const SViewcart = () => {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
+      <div className="about-section">
+        <h1 className="homepageabout">Selected Items</h1>
+        <p>Your cart contains the items you've chosen from Arockiya Farm Shop.
+          sustainably-grown produce and artisanal goods,
+          all crafted with a commitment to quality. Review your selections below and proceed to checkout when you're ready.</p>
+
+      </div>
       <h1 className='cart-heading'>Cart Products</h1>
       <div className='cart-container d-flex justify-content-around'>
         {/* {cart.map()=>{

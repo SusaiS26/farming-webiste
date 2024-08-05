@@ -24,9 +24,9 @@ import Footerpage from './Footerpage';
 
 function Homepage({ cart }) {
     return (
-        
+
         <div className=" style-container">
-             <Header/>
+            <Header />
             {/* <div className="row colour-name">
                 <div className="col">
                     <h1 className="arokiah1">Arokia Farms Kommedu  </h1>
@@ -37,7 +37,7 @@ function Homepage({ cart }) {
             </div>
             <div className="row">
                 <div className="col-12 carousel-padding">
-                    <Carousel className="carousel-width" interval={3000}>
+                    <Carousel className="carousel-width" interval={3000000}>
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
                             <Carousel.Caption>
@@ -45,7 +45,7 @@ function Homepage({ cart }) {
                                     <h2 className="pigyorkshire">பெரிய வெள்ளை யார்க்ஷயர் பன்றி(Large white Yorkshire)</h2>
                                     <p className="textlargewh">இது இந்தியாவில் பயன்படுத்தப்படும் பன்றியின் மிகவும் பொதுவான இனமாகும்.
                                         இது அதிக பால் உற்பத்தி மற்றும் குறைந்த கொழுப்பு உள்ளடக்கம் இறைச்சி உற்பத்திக்காக
-                                        அறியப்படுகிறது. உடல் வெள்ளை நிறத்தில் இருக்கும்.
+                                        அறியப்படுகிறது.
                                     </p>
                                 </div>
                             </Carousel.Caption>
@@ -75,9 +75,11 @@ function Homepage({ cart }) {
                             <Carousel.Caption>
                                 <h3>மையம் வெள்ளை யார்க்ஷயர்(Middle White Yorkshire)</h3>
                                 <p className='pigtypecs'>
-                                    The Middle White is a British breed of domestic pig.
-                                    It originated in Yorkshire,
-                                    and derived from the Large White and the now-extinct Small White.
+                                    இந்த இனம் இந்தியாவின் சில குறிப்பிட்ட பகுதிகளில் பயன்படுத்தப்படுகிறது. 
+                                    இது ஆரம்ப முதிர்ச்சியடைந்த இனமாகும். இவை யார்க்ஷயரை விட குறைவான செழிப்பான இனமாகும்.
+                                    இது வெள்ளை நிற கோட் நிறத்தைக் கொண்டுள்ளது.
+                                    முதிர்ந்த வில்லின் எடை 250-340 கிலோ மற்றும் முதிர்ந்த கில்ட் 180-270 கிலோ ஆகும்.
+                                    இது அமைதியான இயல்பு, நல்ல தாய்வழி உள்ளுணர்வு பெயர் பெற்றது.
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>

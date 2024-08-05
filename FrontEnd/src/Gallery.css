@@ -74,7 +74,7 @@
 .view-image-container {
     position: fixed;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
     display: flex;
@@ -95,9 +95,9 @@
     background: transparent;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
-    margin: 7px 35px;
+    margin: 5px 0;
 }
 
 .xmark {
@@ -143,13 +143,13 @@
         justify-content: center;
         gap: 10px;
         padding: 20px;
-        width: 115%;
+        width: 100%;
     }
 
     .about-section {
         text-align: center;
         padding: 20px;
-        width: 110%;
+        width: 100%;
     }
 
 }
