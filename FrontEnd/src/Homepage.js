@@ -37,7 +37,7 @@ function Homepage({ cart }) {
             </div>
             <div className="row">
                 <div className="col-12 carousel-padding">
-                    <Carousel className="carousel-width" interval={3000000}>
+                    <Carousel className="carousel-width" interval={3000}>
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
                             <Carousel.Caption>
