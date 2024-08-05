@@ -93,7 +93,7 @@ function Homepage({ cart }) {
                         <div className="card-inner-text col-12">
                             <h3>Farming time</h3>
                             <p>Morning 6 AM to Evenig 6 PM We open any time once you will call we stay there only </p>
-                            {/* <button className="button-style"><FontAwesomeIcon icon={faArrowRight} /></button> */}
+                           
                         </div>
                     </section>
                 </div>
