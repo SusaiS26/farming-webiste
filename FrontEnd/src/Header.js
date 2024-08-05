@@ -19,9 +19,9 @@ const Header = () => {
 
   return (
     <div className="transparent-hide">
-      <nav>
+      <nav className='menuNav'>
         <img src={piglog1} alt="Logo" />
-        <input type='checkbox' id='check' />
+        <input  type='checkbox' id='check' />
         <label htmlFor="check" className="menu-icon">
           <i><FontAwesomeIcon icon={faBars} id='btn' /></i>
           <i><FontAwesomeIcon icon={faXmark} id='cancel' /></i>

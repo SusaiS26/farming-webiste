@@ -21,7 +21,6 @@ function App() {
     <div className="App">
       <cartContext.Provider value={{ cart, setCart }}>
         <BrowserRouter>
-          <Header />
           <Routes>
             <Route exact path="/" element={<Homepage />} />
             <Route exact path="/shop" element={<Shop />} />
