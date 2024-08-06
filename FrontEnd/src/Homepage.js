@@ -37,7 +37,7 @@ function Homepage({ cart }) {
             </div>
             <div className="row">
                 <div className="col-12 carousel-padding">
-                    <Carousel className="carousel-width" interval={3000}>
+                    <Carousel className="carousel-width" interval={300000}>
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
                             <Carousel.Caption>
@@ -72,14 +72,13 @@ function Homepage({ cart }) {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img src={pigs4} alt="First slide" className='d-block w-100 custom-height' />
-                            <Carousel.Caption>
+                            <Carousel.Caption className="carouselmiddlewhite">
                                 <h3>மையம் வெள்ளை யார்க்ஷயர்(Middle White Yorkshire)</h3>
                                 <p className='pigtypecs'>
-                                    இந்த இனம் இந்தியாவின் சில குறிப்பிட்ட பகுதிகளில் பயன்படுத்தப்படுகிறது. 
+                                    இந்த இனம் இந்தியாவின் சில குறிப்பிட்ட பகுதிகளில் பயன்படுத்தப்படுகிறது.
                                     இது ஆரம்ப முதிர்ச்சியடைந்த இனமாகும். இவை யார்க்ஷயரை விட குறைவான செழிப்பான இனமாகும்.
-                                    இது வெள்ளை நிற கோட் நிறத்தைக் கொண்டுள்ளது,
-                                    முதிர்ந்த வில்லின் எடை 250-340 கிலோ மற்றும் முதிர்ந்த கில்ட் 180-270 கிலோ ஆகும்.
-                                    இது அமைதியான இயல்பு, நல்ல தாய்வழி உள்ளுணர்வு பெயர் பெற்றது.
+                                    இது வெள்ளை நிற கோட் நிறத்தைக் கொண்டுள்ளது.
+                                   
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -88,46 +87,48 @@ function Homepage({ cart }) {
 
             </div>
             <div className="row">
-                <div className="container col-12">
+                <div className="col-12">
                     <section className="card-style d-flex align-items-center">
                         <div className="card-inner-text col-12">
                             <h3>Farming time</h3>
                             <p>Morning 6 AM to Evenig 6 PM We open any time once you will call we stay there only </p>
-                           
+
                         </div>
                     </section>
                 </div>
             </div>
             <div>
-                <div className="row d-flex flex-wrap justify-content-around card-margin">
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }} className="card-align-margin">
+                <div className="row d-flex flex-wrap justify-content-between card-margin">
+                    <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <Card >
                             <Card.Img variant="top" src={pigs1} />
                             <Card.Body>
                                 <Card.Title>Large White Yorkshire</Card.Title>
                                 <Card.Text>
                                     It is a small-sized animal. In India, it is the most widely reared breed of pig.
                                     It is renowned for producing large amounts of milk as well as meat with minimal fat content.
-                                    The body is white with patches of black pigment.
+                                    The body is white with patches of black.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={pigs4} />
+                    <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <Card >
+                            <Card.Img variant="top" className="middlewhiteimage" src={pigs4} />
                             <Card.Body>
                                 <Card.Title>Middle White </Card.Title>
                                 <Card.Text>
-                                    The Middle White is a British breed of domestic pig.
+                                    The Middle White is a British breed.
                                     It originated in Yorkshire,
                                     and derived from the Large White and the now-extinct Small White.
+                                    Known for its distinctive snub-nosed profile,referred to as the "London porker."
                                 </Card.Text>
+
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
+                    <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <Card >
                             <Card.Img variant="top" src={pigs5} />
                             <Card.Body>
                                 <Card.Title>Hampshire</Card.Title>
@@ -138,8 +139,8 @@ function Homepage({ cart }) {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
+                    <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <Card >
                             <Card.Img variant="top" src={pigs6} />
                             <Card.Body>
                                 <Card.Title>Berkshire pig</Card.Title>
@@ -150,32 +151,36 @@ function Homepage({ cart }) {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
+                    <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <Card >
                             <Card.Img variant="top" src={pigs2} />
                             <Card.Body>
                                 <Card.Title>Landrace pig</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    The Landrace pig is a highly regarded breed known for its excellent meat quality and prolific breeding.
+                                    Originating from Denmark, the Landrace has been selectively bred for its long body and lean muscle.
                                 </Card.Text>
+
+
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={pigs7} />
+                    <div className="small-cards col-sm-12 col-md-4 ghugrooimage mb-3">
+                        <Card >
+                            <Card.Img variant="top" className="ghugroopig" src={pigs7} />
                             <Card.Body>
                                 <Card.Title>Ghungroo</Card.Title>
                                 <Card.Text>
                                     Ghungroo (GR) is a native pig breed which is mainly reared by the tribes of Duars' Valley and allied zone in India. Higher prolificacy,
                                     faster growth rate.
+                                    The breed is well-adapted to local conditions.
                                 </Card.Text>
+
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="small-cards col-sm-12 col-md-4 d-flex justify-content-around mb-3">
-                        <Card style={{ width: '18rem' }}>
+                    <div className="small-cards col-sm-12 col-md-4 mb-3">
+                        <Card >
                             <Card.Img variant="top" src={pigs3} />
                             <Card.Body>
                                 <Card.Title>Duroc</Card.Title>
