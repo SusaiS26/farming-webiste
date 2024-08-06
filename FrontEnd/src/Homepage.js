@@ -37,7 +37,7 @@ function Homepage({ cart }) {
             </div>
             <div className="row">
                 <div className="col-12 carousel-padding">
-                    <Carousel className="carousel-width" interval={300000}>
+                    <Carousel className="carousel-width" interval={3000}>
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
                             <Carousel.Caption>
@@ -123,7 +123,6 @@ function Homepage({ cart }) {
                                     and derived from the Large White and the now-extinct Small White.
                                     Known for its distinctive snub-nosed profile,referred to as the "London porker."
                                 </Card.Text>
-
                             </Card.Body>
                         </Card>
                     </div>
