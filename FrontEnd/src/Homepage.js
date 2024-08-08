@@ -33,11 +33,11 @@ function Homepage({ cart }) {
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
                             <Carousel.Caption>
-                                {/* <h2 className="pigyorkshire">பெரிய வெள்ளை யார்க்ஷயர் பன்றி(Large white Yorkshire)</h2>
+                                <h2 className="pigyorkshire">பெரிய வெள்ளை யார்க்ஷயர் பன்றி(Large white Yorkshire)</h2>
                                 <p className="pigyorkshire">இது இந்தியாவில் பயன்படுத்தப்படும் பன்றியின் மிகவும் பொதுவான இனமாகும்.
                                     இது அதிக பால் உற்பத்தி மற்றும் குறைந்த கொழுப்பு உள்ளடக்கம் இறைச்சி உற்பத்திக்காக
                                     அறியப்படுகிறது.
-                                </p> */}
+                                </p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
