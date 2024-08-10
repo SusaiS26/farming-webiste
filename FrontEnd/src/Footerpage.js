@@ -12,7 +12,7 @@ function Footerpage() {
                             <div className="social-network">
                                 <span>Get connected with us on social networks:</span>
                             </div>
-                            <div className="social-network">
+                            <div className="social-network-icon">
                                 <a href="" className="text-white me-4">
                                     <i className="fab fa-whatsapp"></i>
                                 </a>
