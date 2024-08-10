@@ -15,6 +15,7 @@ function Footerpage() {
                             <div className="social-network-icon">
                                 <a href="" className="text-white me-4">
                                     <i className="fab fa-whatsapp"></i>
+                                    <p></p>
                                 </a>
                                 <a href="" className="text-white me-4">
                                     <i className="fab fa-facebook"></i>
