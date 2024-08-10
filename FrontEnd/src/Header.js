@@ -18,32 +18,37 @@ const Header = () => {
   };
 
   return (
-    <div className="transparent-hide">
-      <nav className='menuNav'>
-        <img src={piglog1} alt="Logo" />
-        <input  type='checkbox' id='check' />
-        <label htmlFor="check" className="menu-icon">
-          <i><FontAwesomeIcon icon={faBars} id='btn' /></i>
-          <i><FontAwesomeIcon icon={faXmark} id='cancel' /></i>
-        </label>
-        <ul className="">
-          <li><Link to='/' className="link-style" onClick={homeOnclickValue}>Home</Link></li>
-          <li><Link to='/Aboutpage' className="link-style">About Us</Link></li>
-          <li><Link to='/Gallery' className="link-style">Gallery</Link></li>
-          <li><Link to='/shop' className="link-style">Shop</Link></li>
-          <li><Link to='/Contact' className="link-style">Contact Us</Link></li>
-          <div className="button-sec">
-            <li className="button-style"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
-            <li className="button-style ms-4 link-style">
-              <Link to="/SViewcart" className="link-style">
-                <span className='cart-count'>{cart.length}</span>
-                <FontAwesomeIcon icon={faCartShopping} />
-              </Link>
-            </li>
-          </div>
-        </ul>
-      </nav>
+    <div className='row'>
+      <div className='col-12'>
+        <div className="transparent-hide">
+          <nav className='menuNav'>
+            <img src={piglog1} alt="Logo" />
+            <input type='checkbox' id='check' />
+            <label htmlFor="check" className="menu-icon">
+              <i><FontAwesomeIcon icon={faBars} id='btn' /></i>
+              <i><FontAwesomeIcon icon={faXmark} id='cancel' /></i>
+            </label>
+            <ul className="">
+              <li><Link to='/' className="link-style" onClick={homeOnclickValue}>Home</Link></li>
+              <li><Link to='/Aboutpage' className="link-style">About Us</Link></li>
+              <li><Link to='/Gallery' className="link-style">Gallery</Link></li>
+              <li><Link to='/shop' className="link-style">Shop</Link></li>
+              <li><Link to='/Contact' className="link-style">Contact Us</Link></li>
+              <div className="button-sec">
+                <li className="button-style"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
+                <li className="button-style ms-4 link-style">
+                  <Link to="/SViewcart" className="link-style">
+                    <span className='cart-count'>{cart.length}</span>
+                    <FontAwesomeIcon icon={faCartShopping} />
+                  </Link>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
+
   );
 };
 

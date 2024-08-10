@@ -1,0 +1,56 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content {
+    background-color: blue;
+    padding: 15px;
+    color: #fff;
+    font-size: larger;
+}
+
+.footer-container .line {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.footer-container .productdetails {
+    color: #fff;
+}
+
+.footer-container .background {
+    background-color: #1c2330;
+    padding: 15px;
+}
+
+.footer-container .text-decoration {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-container .footercolor {
+    background-color: red;
+    padding: 15px;
+    border-radius: 7px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* Remove scroll by setting margins and paddings to 0 */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+.footer-container .copy-right {
+    color: #fff;
+    font-weight: 600;
+}

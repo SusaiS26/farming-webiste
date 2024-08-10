@@ -32,7 +32,7 @@ function Homepage({ cart }) {
                     <Carousel className="carousel-width" interval={3000000}>
                         <Carousel.Item>
                             <img src={pigs1} alt="First slide" className='d-block w-100 custom-height' />
-                            <Carousel.Caption>
+                            <Carousel.Caption className="">
                                 <h2 className="pigyorkshire">பெரிய வெள்ளை யார்க்ஷயர் பன்றி(Large white Yorkshire)</h2>
                                 <p className="pigyorkshire">இது இந்தியாவில் பயன்படுத்தப்படும் பன்றியின் மிகவும் பொதுவான இனமாகும்.
                                     இது அதிக பால் உற்பத்தி மற்றும் குறைந்த கொழுப்பு உள்ளடக்கம் இறைச்சி உற்பத்திக்காக
@@ -90,7 +90,7 @@ function Homepage({ cart }) {
             <div className="row">
                 <div className="col-12">
                     <div className="row d-flex flex-wrap justify-content-between card-margin">
-                        <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4  mb-3">
                             <Card >
                                 <Card.Img variant="top" src={pigs1} />
                                 <Card.Body>
@@ -103,7 +103,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4   mb-3">
                             <Card >
                                 <Card.Img variant="top" className="middlewhiteimage" src={pigs4} />
                                 <Card.Body>
@@ -117,7 +117,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4   mb-3">
                             <Card >
                                 <Card.Img variant="top" src={pigs5} />
                                 <Card.Body>
@@ -129,7 +129,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4   mb-3">
                             <Card >
                                 <Card.Img variant="top" src={pigs6} />
                                 <Card.Body>
@@ -141,7 +141,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4  mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4   mb-3">
                             <Card >
                                 <Card.Img variant="top" src={pigs2} />
                                 <Card.Body>
@@ -153,7 +153,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4 ghugrooimage mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4  ghugrooimage mb-3">
                             <Card >
                                 <Card.Img variant="top" className="ghugroopig" src={pigs7} />
                                 <Card.Body>
@@ -167,7 +167,7 @@ function Homepage({ cart }) {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="small-cards col-sm-12 col-md-4 mb-3">
+                        <div className="small-cards col-sm-12 col-md-6 col-lg-4  mb-3">
                             <Card >
                                 <Card.Img variant="top" src={pigs3} />
                                 <Card.Body>
