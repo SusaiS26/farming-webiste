@@ -8,8 +8,8 @@ function Footerpage() {
             <div className="row">
                 <div className="col-12">
                     <div className="footer-content">
-                        <div className=" d-flex justify-content-between">
-                            <div className="social-network">
+                        <div className="d-md-flex justify-content-between">
+                            <div className="social-network mb-2 mb-md-0">
                                 <span>Get connected with us on social networks:</span>
                             </div>
                             <div className="social-network-icon">
@@ -29,8 +29,9 @@ function Footerpage() {
                                     <i className="fab fa-google"></i>
                                 </a>
                             </div>
-
                         </div>
+
+
                     </div>
                 </div>
             </div>
